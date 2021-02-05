@@ -4,39 +4,51 @@
     <meta charset="utf-8">
     <title>Freelancer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
   <!-- Optional theme -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
 
   </head>
-  <body class="debug">
+  <body>
 
     <header>
       <!-- HEADER MENU -->
-      <section class="menu">
-        <div class="container-fluid">
+      <nav class="header_top bg_blue navbar-fixed-top color_white">
+        <div class="container">
           <div class="row">
-            <div class="col-xs-10 col-sm-6 col-md-6">
-              <p>Logo</p>
+            <div class="col-xs-6 col-sm-6 col-md-6">
+              <h2>START BOOTSTRAP</h2>
             </div>
-            <div class="col-xs-2 visible-xs-block">
-              <p>hamb</p>
+            <div class="col-xs-6 visible-xs-block text-right">
+              <a class="my_hamburger btn btn-lg glyphicon glyphicon-menu-hamburger" href="#"></a>
             </div>
-            <div class="col-sm-6 col-sm-6 hidden-xs">
-              menu lista
+            <div class="my_list col-sm-6 col-md-6 hidden-xs text-right">
+              <ul>
+                <li><a href="#">PORTFOLIO</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">CONTACT</a></li>
+              </ul>
             </div>
           </div>
         </div>
-      </section>
+      </nav>
 
       <!-- JUMBOTRON -->
-      <section class="jumbo">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-xs-12">
-
+      <section class="header_jumbo bg_green text-center color_white">
+        <div class="wrapped">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-xs-12">
+                <img src="img/bambino.svg" alt="">
+                <h2>START BOOTSTRAP</h2>
+                <hr class="inline_block">
+                <h2 class="my_star glyphicon glyphicon-star inline_block"></h2>
+                <hr class="inline_block">
+                <h4>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</h4>
+              </div>
             </div>
           </div>
         </div>
@@ -45,42 +57,147 @@
 
     <main>
 
-      <section class="portfolio">
-        <div class="container">
-
+      <section class="portfolio text-center">
+        <div class="wrapped">
+          <div class="container-fluid">
+            <div class="row">
+              <h2>PORTFOLIO</h2>
+              <hr class="inline_block">
+              <h2 class="my_star glyphicon glyphicon-star inline_block"></h2>
+              <hr class="inline_block">
+            </div>
+          </div>
         </div>
-      </section>
-      <section class="blocchi">
         <div class="container">
           <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-4"></div>
-            <div class="col-xs-12 col-sm-6 col-md-4"></div>
-            <div class="col-xs-12 col-sm-6 col-md-4"></div>
-            <div class="col-xs-12 col-sm-6 col-md-4"></div>
-            <div class="col-xs-12 col-sm-6 col-md-4"></div>
-            <div class="col-xs-12 col-sm-6 col-md-4"></div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="my_box">
+                <img src="img/cabin.png" alt="">
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="my_box">
+                <img src="img/cake.png" alt="">
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="my_box">
+                <img src="img/circus.png" alt="">
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="my_box">
+                <img src="img/game.png" alt="">
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="my_box">
+                <img src="img/safe.png" alt="">
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="my_box">
+                <img src="img/submarine.png" alt="">
+              </div>
+            </div>
           </div>
         </div>
       </section>
-      <section class="about">
-        <div class="container-fluid">
 
+      <section class="about bg_green text-center color_white">
+        <div class="wrapped">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-12">
+                <h2>ABOUT</h2>
+                <hr class="inline_block">
+                <h2 class="my_star glyphicon glyphicon-star inline_block"></h2>
+                <hr class="inline_block">
+              </div>
+            </div>
+            <div class="row text-left">
+              <div class=" col-xs-12 col-sm-6 col-md-6">
+                <p>Freelancer is a free bottstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization. </p>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-6">
+                <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-12">
+                <a class="my_down glyphicon glyphicon-save btn" href="#">Download</a>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
-      <section class="contact_me">
-        <div class="container-fluid">
 
+      <section class="contact_me text-center">
+        <div class="wrapped">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-12">
+                <h2>CONTACT ME</h2>
+                <hr class="inline_block">
+                <h2 class="my_star glyphicon glyphicon-star inline_block"></h2>
+                <hr class="inline_block">
+              </div>
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                  <form>
+                    <div class="form-group my_form">
+                      <input type="text" class="form-control" id="Name" placeholder="Name">
+                    </div>
+                    <div class="form-group my_form">
+                      <input type="email" class="form-control" id="Email" placeholder="Email Address">
+                    </div>
+                    <div class="form-group my_form">
+                      <input type="text" class="form-control" id="Phone" placeholder="Phone Number">
+                    </div>
+                    <div class="form-group my_form">
+                      <input type="text-area" class="form-control" id="Message" placeholder="Message">
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="send text-left">
+            <a href="#" class="btn bg_green">Send</a>
+          </div>
         </div>
       </section>
     </main>
 
     <footer>
-      <div class="location container-fluid">
-
-      </div>
-      <div class="copyright container-fluid">
-
-      </div>
+      <section class="info color_white bg_lightblue text-center">
+        <div class="wrapped">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-xs-12 col-sm-4 col-md-4">
+                <h4>LOCATION</h4>
+                <p>2215 John Daniel Drive Clark, MO 54243</p>
+              </div>
+              <div class="col-xs-12 col-sm-4 col-md-4">
+                <h4>AROUND THE WEB</h4>
+                <a href="#" class="my_button btn color_white text-center"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="my_button btn color_white text-center"><i class="fab fa-google-plus-g"></i></a>
+                <a href="#" class="my_button btn color_white text-center"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="my_button btn color_white text-center"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+              <div class="col-xs-12 col-sm-4 col-md-4">
+                <h4>ABOUT FREELANCER</h4>
+                <p>Freelance is a free to use, open source Bootstrap theme created by <a href="#"class="color_green">Start Bootstrap</a>. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="copyright bg_blue text-center color_white">
+        <div class="wrapped">
+        <div class="container-fluid">
+          <p>Copyright © Your Website 2020</p>
+        </div>
+      </section>
     </footer>
   </body>
 </html>
